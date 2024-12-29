@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 0px 20px;
   }
   
   .points{
@@ -41,12 +41,12 @@
   }
   
   .section1 {
-    max-width: 1200px;
+   max-width: 1200px;
     margin: 50px auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding: 0 20px; 
   }
   
   .section1 img{
@@ -68,44 +68,90 @@
   .naem2 {
     margin-bottom: 15px;
     color: #333;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   } 
-  .naem3{
+  .naem33{
     margin-bottom: 15px;
     color: #333;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 1px;
   }
   .btn.btn-secondary{
+   color: #333;
+   
     background-color: #ffdcc6;
     height: 50px;
-    width: 100px;
+    width: 150px;
     border-radius: 30%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .section2{
+   margin-left: 100px;
+   box-shadow: 5px 5px 5px 5px;
     background-color: #ffdcc6;  
-    height: 300px;
+    height: 400px;
+    width: 950px;
     padding: 20px;
-    margin: 50px;
+ 
     text-align: center;
+    overflow: hidden;
+    transition: transform 0.4s ease;
   }
+  .section2:hover{
+    transform: scale(1.05);
+  }
+  .about.me1{
+ margin-bottom: 20px;
+   margin-left: 750px;
+   box-shadow: 5px 5px 5px 1px;
+  }
+
+  
+  .Education{
+    background-color: #ffdcc6;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 1px;
+  }
+ 
+  
   .naem4{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .section3 {
       display: flex;
+      width: 950px;
+      margin-left: 100px;
       justify-content: space-evenly;
-      gap: 20px;
-      padding: 20px;
+      gap: 10px;
+      padding: 15px;
+      margin-left: 100px;
       flex-wrap: wrap;
       text-align: center;
-      height: 350px;
+      box-shadow: 5px 5px 5px 5px;
+      height: 400px;
+      overflow: hidden;
+     transition: transform 0.4s ease;
   }
+ .section3:hover{
+  transform: scale(1.05);
+ }
   .part1{
       background-color: #ffdcc6;
       width: 300px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+  }
+  .part1 :hover{
+  
   }
   .part2{
       background-color: #ffdcc6;
@@ -117,54 +163,110 @@
       width: 300px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+  .section4{
+    margin-left: 100px;
+    background-color: #ffdcc6;
+    width: 950px;
+    height: 600px;
+    box-shadow: 5px 5px 5px 5px;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+  }
+  .section4:hover{
+    transform: scale(1.05);
+
+  }
   .naem5{
+    width: 900px;
+    margin-left: 30px;
+    color: #333;
+    padding: 4px;
+    
     background-color: #ffdcc6;
     text-align: center;
-    padding: 10px;
-    width: 300px;
-    margin: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 5px 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .naem6{
     background-color: #ffdcc6;
     text-align: center;
     padding: 10px;
-    width: 700px;
+    box-shadow: 5px 5px;
     margin: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .images2{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
     background-color: #ffdcc6;
   }
+
   .section5{
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 5px;
    padding: 10px;
    margin: 10px; 
+   margin-left: 100px;
+   width: 950px;
+   
+   background-color: #ffdcc6;
+   overflow: hidden;
+   transition: transform 0.4s ease;
+  }
+  .section5:hover{
+   
+    transform: scale(1.05);
   }
   .name7{
     background-color: #ffdcc6;
-    padding: 10px;
-    margin: 10px;
+   padding: 4px;
     text-align: center;
-    width: 300px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 5px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .name8{
+    box-shadow: 5px 5px ;
     background-color: #ffdcc6;
-    padding: 10px;
+ padding: 4px;
     text-align: center;
-    margin: 10px;
+ 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 700px;
+    
   }
-.img6{
-  
-    background-color: #ffdcc6;
-}
-.section7{
+ .images3{
+  display: flex;
+  justify-content: space-between;
+ }
 
-   width: 100%;
-    background-color: #ffdcc6;
+.section7{
+  box-shadow: 5px 5px 5px 5px;
+  
+  background-color: #ffdcc6;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+ }
+ .section7:hover{
+  transform: scale(1.05);
  }
 .numper{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.email img{
+margin-left: 20px;
+}
+.phone1{
+  text-align: center;
+  margin-top: 10px;
+}
+.section6{
+ 
+  width: 950px;
+  box-shadow: 5px 5px 5px 5px;
+  background-color: #ffdcc6;
+  height: 500px;
+padding: 5px;
+  margin-left: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
