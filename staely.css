@@ -270,3 +270,75 @@ padding: 5px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Responsive for Mobile */
+@media only screen and (max-width: 768px) {
+  .nav1 {
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: end;
+    padding: 10px;
+  }
+
+  .points {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .section1 {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+  }
+
+  .section1 img {
+    max-width: 80%;
+    margin: 10px 0;
+  }
+
+  .text-content {
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .section2, .section3, .section4, .section5, .section6, .section7 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 15px;
+  }
+
+  .part1, .part2, .part3 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .images2, .images3 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .images3 .img6,
+  .images3 .img66 {
+    flex: 1 1 48%; /* يتم تحديد 48% بدلاً من 22% ليعطي مساحة أكبر للصور على الشاشات الصغيرة */
+    margin-bottom: 10px; /* إضافة مسافة بين الصور */
+  }
+
+  .naem5, .naem6, .name7, .name8 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .btn.btn-secondary {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .phone1 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
